@@ -1,0 +1,2 @@
+!function(){var a=angular.module("bzData",[]);a.directive("bzData",["$parse",function(){var a=0;return{restrict:"A",scope:!0,controller:["$scope",function(a){var b=void 0;this.data=a.data=function(a){return angular.isDefined(a)?(b=a,this):b},this.$$hashKey=a.$$hashKey}],link:function(b,c,d){b.$$hashKey=a++,b.$watch(d.bzData,function(a){b.data(a)})}}}])}();
+//# sourceMappingURL=bz-data.map

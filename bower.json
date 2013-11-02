@@ -1,0 +1,14 @@
+{
+  "name": "bz-data",
+  "version": "0.1.0",
+  "main": [
+    "bz-data.js"
+  ],
+  "ignore": [
+    "examples",
+    "src"
+  ],
+  "dependencies": {
+    "angular": ">=1.2.0-rc.2"
+  }
+}
